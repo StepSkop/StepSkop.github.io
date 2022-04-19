@@ -205,7 +205,6 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -217,10 +216,8 @@ header {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  min-height: 200px;
-  height: calc(100vh - 3rem);
-  -webkit-transition: ease 0.4s;
-  transition: ease 0.4s;
+  min-height: 700px;
+  height: calc(100vh - 8rem);
   background-color: var(--background-color);
 }
 
@@ -383,31 +380,28 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-  height: calc(100vh);
-  min-height: 100px;
+  height: calc(100vh - 3rem);
+  min-height: 700px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-transition: ease 0.4s;
-  transition: ease 0.4s;
   background-color: var(--background-color);
-  padding: 10rem 7vw 0 7vw;
+  padding: 3rem 7vw 0 7vw;
 }
 
 #games-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 4rem;
+  margin: 4rem 0 7rem 0;
   text-align: center;
   color: #6BD8FF;
   font-family: "Lexend";
@@ -773,11 +767,9 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: var(--background-color);
-  min-height: 100px;
+  min-height: 700px;
   width: 100%;
   padding: 0 22vw 3rem 22vw;
-  -webkit-transition: ease 0.4s;
-  transition: ease 0.4s;
 }
 
 #about-title {
