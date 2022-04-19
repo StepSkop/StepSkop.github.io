@@ -1,0 +1,34 @@
+@font-face {
+    src: url(../fonts/Library3am.otf);
+    font-family: Library3am;
+}
+@font-face {
+    src: url(../fonts/Inter.ttf);
+    font-family: Inter;
+}
+@font-face {
+    src: url(../fonts/Lexend.ttf);
+    font-family: Lexend;
+}
+$primary-font: 'Inter';
+$secondary-font: 'Library3am';
+$title-font: 'Lexend';
+$primary-color: #7821bd;
+$secondary-color: #6BD8FF;
+$tertiary-color: #CE4B95;
+$button-color: #3BA55D;
+$button-color-hover: #215b32;
+$primary-background-color: $primary-color;
+$secondary-background-color: #490082;
+:root{
+    --background-color: #7821bd;
+}
+html, body {
+    background-color: grey;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none;
+}

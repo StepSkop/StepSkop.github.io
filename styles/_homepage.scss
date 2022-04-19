@@ -1,0 +1,81 @@
+#homepage{
+    z-index: 0;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 764px;
+    height: calc(100vh - 3rem);
+    transition: ease 0.4s;
+    background-color: var(--background-color);
+    .homepage-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 3rem;
+        #game-vibe-text{
+            display: flex;
+            font-family: $secondary-font;
+            text-align: center;
+            line-height: 5rem;
+            font-size: 4rem;
+            color: $secondary-color;
+            text-shadow: 0px 3px 0px $tertiary-color;
+        }
+        .join-button-home{
+            @include join-button;
+            height: 2.2rem;
+            width: 6rem;
+            transition: ease 0.15s;
+        }
+        .join-button-home:hover{
+            transform: scale(1.1);
+            background: $button-color-hover;
+        }
+        .join-button-home-container img{
+            position: absolute;
+            width: 1.7rem;
+            height: auto;
+            transition: ease 0.2s;
+        }
+        .join-button-home-container:hover img{
+            transform: rotateZ(120deg) translate(0.1rem, 1.4rem);
+        }
+    }
+    .learn-more-custom{
+        display: flex;
+        text-decoration: none;
+        flex-direction: column;
+        position: absolute;
+        bottom: 1.2rem;
+        transition: ease 0.4s;
+        p{
+            position: relative;
+            font-family: $primary-font;
+            color: black;
+            font-size: 0.7rem;
+            font-weight: bolder;
+            letter-spacing: 0.1rem;
+            margin-right: -0.1rem;
+            text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+            margin-bottom: 0.3rem;
+            //animation: bounce-arrow 1s infinite;
+        }
+        img{
+            position: relative;
+            height: 2.5rem;
+            animation: bounce-arrow 1.5s infinite;
+        }
+        @keyframes bounce-arrow{
+            0%{top: 0rem;}
+            50%{top: 1rem;}
+            100%{top: 0rem;}
+        }
+    }
+    .learn-more-custom:hover{
+        transform: scale(1.1);
+    }
+}
