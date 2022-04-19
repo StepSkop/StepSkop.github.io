@@ -3,17 +3,17 @@
     flex-direction: column;
     width: 100%;
     height: calc(100vh - 3rem);
-    min-height: 700px;
+    min-height: 764px;
     justify-content: center;
     align-items: center;
-    //transition: ease 0.4s;
+    transition: ease 0.4s;
     background-color: var(--background-color);
-    padding: 3rem 7vw 0 7vw;
+    padding: 6rem 7vw 0 7vw;
 
 }
 #games-title{
     display: flex;
-    margin: 4rem 0 7rem 0;
+    margin: 4vh 0 7vh 0;
     text-align: center;
     color: $secondary-color;
     font-family: $title-font;
