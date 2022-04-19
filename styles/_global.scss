@@ -28,6 +28,8 @@ html, body {
     scroll-behavior: smooth;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    height: 100%;
+    margin: 0;
 }
 html::-webkit-scrollbar, body::-webkit-scrollbar {
     display: none;

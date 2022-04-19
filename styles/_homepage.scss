@@ -1,14 +1,13 @@
 #homepage{
     z-index: 0;
     display: flex;
-    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-height: 100px;
+    min-height: 700px;
     height: calc(100vh - 3rem);
-    transition: ease 0.4s;
+    //transition: ease 0.4s;
     background-color: var(--background-color);
     .homepage-section{
         display: flex;

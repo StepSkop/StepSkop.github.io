@@ -1,20 +1,19 @@
 #games{
     display: flex;
-    position: relative;
     flex-direction: column;
     width: 100%;
-    height: calc(100vh);
-    min-height: 100px;
+    height: calc(100vh - 3rem);
+    min-height: 700px;
     justify-content: center;
     align-items: center;
-    transition: ease 0.4s;
+    //transition: ease 0.4s;
     background-color: var(--background-color);
-    padding: 10rem 7vw 0 7vw;
+    padding: 3rem 7vw 0 7vw;
 
 }
 #games-title{
     display: flex;
-    margin-bottom: 4rem;
+    margin: 4rem 0 7rem 0;
     text-align: center;
     color: $secondary-color;
     font-family: $title-font;
