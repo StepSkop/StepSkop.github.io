@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: calc(100vh - 3rem);
-    min-height: 764px;
+    min-height: calc(100vh - 3rem);
+    height: fit-content;
     justify-content: center;
     align-items: center;
     transition: ease 0.4s;

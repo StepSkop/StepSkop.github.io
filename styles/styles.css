@@ -216,8 +216,10 @@ header {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  min-height: 764px;
-  height: calc(100vh - 3rem);
+  min-height: calc(100vh - 3rem);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   -webkit-transition: ease 0.4s;
   transition: ease 0.4s;
   background-color: var(--background-color);
@@ -387,8 +389,10 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-  height: calc(100vh - 3rem);
-  min-height: 764px;
+  min-height: calc(100vh - 3rem);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
