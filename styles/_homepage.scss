@@ -7,7 +7,7 @@
     width: 100%;
     min-height: calc(100vh - 3rem);
     height: fit-content;
-    transition: ease 0.4s;
+    transition: background-color ease 0.4s;
     background-color: var(--background-color);
     
     .homepage-section{
@@ -50,7 +50,7 @@
         text-decoration: none;
         flex-direction: column;
         position: absolute;
-        bottom: 3rem;
+        bottom: 1.2rem;
         transition: ease 0.4s;
         p{
             position: relative;
