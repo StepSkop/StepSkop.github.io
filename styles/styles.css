@@ -216,10 +216,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  min-height: calc(100vh);
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  min-height: calc(var(--vh, 1vh) * 100);
   -webkit-transition: background-color ease 0.4s;
   transition: background-color ease 0.4s;
   background-color: var(--background-color);
@@ -422,6 +419,9 @@ header {
   display: block;
   width: 100%;
   max-width: 59rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   top: 0;
 }
 
@@ -434,6 +434,7 @@ header {
           justify-content: center;
   min-height: 40rem;
   max-width: 59rem;
+  height: 512px;
 }
 
 .carousel-caption {
@@ -441,12 +442,20 @@ header {
   z-index: 0;
 }
 
+.carousel-inner {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .carousel-indicators [data-bs-target] {
   background-color: #6BD8FF;
 }
 
 .carousel-item {
-  height: 32rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .carousel-item.active {
@@ -475,7 +484,7 @@ header {
   width: 49vw;
   height: 25vw;
   color: white;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-family: "Inter";
   font-weight: bolder;
   letter-spacing: 0.1rem;
@@ -508,7 +517,7 @@ header {
   width: 49vw;
   height: 25vw;
   color: white;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-family: "Inter";
   font-weight: bolder;
   letter-spacing: 0.1rem;
@@ -541,7 +550,7 @@ header {
   width: 49vw;
   height: 25vw;
   color: white;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-family: "Inter";
   font-weight: bolder;
   letter-spacing: 0.1rem;
