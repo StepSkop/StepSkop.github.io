@@ -16,7 +16,6 @@ header{
     align-items: center;
     width: 50%;
     height: 100%;
-    //background-color: aquamarine;
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
     img{
@@ -30,7 +29,6 @@ header{
     position: relative;
     width: 50%;
     height: 100%;
-    //background-color: bisque;
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
     justify-content: right;
@@ -66,11 +64,8 @@ header{
             color: $secondary-color;
             text-shadow: 0px 2px 1px $secondary-background-color;
             transform: scale(1.1);
-
         }
     }
-
-
     .join-button-header{
         @include join-button;
         transition: ease 0.15s;
@@ -86,6 +81,5 @@ header{
     }
     .join-button-header-container:hover img{
         transform: translateY(1.2rem);
-        
     }
 }

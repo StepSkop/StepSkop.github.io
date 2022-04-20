@@ -13,10 +13,8 @@
     justify-content: center;
     height: fit-content;
     min-height:500px;
-
     }
     .slide{
-        //background-color: rgb(247, 0, 255);
         height: fit-content;
     }
     .carousel-caption {
@@ -98,4 +96,7 @@
     }.game-mc{
         @include game;
         background: #40692F;
+        img{
+            transform: scale(0.7);
+        }
     }

@@ -794,6 +794,11 @@ header {
   background: #40692F;
 }
 
+.game-mc img {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+
 #about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -815,8 +820,8 @@ header {
   height: fit-content;
   width: 100%;
   padding: 0 22vw 3rem 22vw;
-  -webkit-transition: ease 0.4s;
-  transition: ease 0.4s;
+  -webkit-transition: background-color ease 0.4s;
+  transition: background-color ease 0.4s;
 }
 
 .about-title {
@@ -877,15 +882,9 @@ footer p {
             transform: scale(1.5);
   }
   header .menu-header .join-button-header-container {
-    margin-left: 3rem;
-  }
-  header .menu-header .join-button-header {
     -webkit-transform: scale(1.5);
             transform: scale(1.5);
-  }
-  header .menu-header .join-button-header:hover {
-    -webkit-transform: scale(1.7);
-            transform: scale(1.7);
+    margin-left: 3rem;
   }
 }
 
@@ -900,14 +899,9 @@ footer p {
     -webkit-transform: scale(1.5);
             transform: scale(1.5);
   }
-  #homepage .homepage-section .join-button-home {
+  #homepage .homepage-section .join-button-home-container {
     -webkit-transform: scale(1.5);
             transform: scale(1.5);
-  }
-  #homepage .homepage-section .join-button-home:hover {
-    -webkit-transform: scale(1.7);
-            transform: scale(1.7);
-    background: #215b32;
   }
   #homepage .learn-more-custom {
     -webkit-transform: scale(1.2);
@@ -928,8 +922,12 @@ footer p {
     margin-bottom: 9rem;
   }
   .games-gallery-custom {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .carousel-inner {
+    min-height: 100%;
+    margin-bottom: 6rem;
   }
   .carousel-item.active p, .carousel-item-next p, .carousel-item-prev p {
     font-size: 1rem;
@@ -950,6 +948,9 @@ footer p {
 
 @media only screen and (min-width: 990px) {
   footer {
+    height: 3rem;
+  }
+  footer p {
     -webkit-transform: scale(1.5);
             transform: scale(1.5);
   }

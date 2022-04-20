@@ -7,12 +7,15 @@
         margin-bottom: 9rem;
     }
     .games-gallery-custom{
-        transform: scale(1.2);
+        transform: scale(1.1);
+    }
+    .carousel-inner{
+        min-height: 100%;
+        margin-bottom: 6rem;
     }
     .carousel-item.active, .carousel-item-next, .carousel-item-prev{
         p{
             font-size: 1rem;
         }
     }
-
 }
