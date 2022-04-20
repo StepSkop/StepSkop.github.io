@@ -5,7 +5,7 @@
         width: 5rem;
         height: 1.75rem;
         filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.4));
-        background: red;
+        background: $button-color;
         border-radius: 6px;
         text-decoration: none;
         p{
@@ -28,7 +28,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    height: fit-content;
     row-gap: 1rem;
 }
 @mixin game {
@@ -42,6 +42,7 @@
     align-items: center;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.76);
     border-radius: 10px;
+
 }
 @mixin carousel-mod {
     display: flex;
@@ -54,7 +55,7 @@
         display: flex;
         max-width: 19rem;
         width: 49vw;
-        height: 25vw;
+        height: 20vh;
         color: white;
         font-size: 0.7rem;
         font-family: $primary-font;

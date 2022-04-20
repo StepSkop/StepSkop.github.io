@@ -2,19 +2,29 @@
     display: block;
     width: 100%;
     max-width: 59rem;
+    height: fit-content;
     top: 0;
+}
+#game-carousel{
+    height: fit-content;
 }
 .carousel {
     display: flex;
     justify-content: center;
-    min-height: 40rem;
-    max-width: 59rem;
+    height: fit-content;
+    min-height:500px;
+
+    }
+    .slide{
+        //background-color: rgb(247, 0, 255);
+        height: fit-content;
     }
     .carousel-caption {
         bottom: 3rem;
         z-index: 0;
     }
     .carousel-inner{
+        height: fit-content;
     }
     .carousel-indicators [data-bs-target]{
         background-color: $secondary-color;
@@ -24,6 +34,7 @@
     }
     .carousel-item.active{
         @include carousel-mod;
+        min-height:500px;
     }
     .carousel-item-next{
         @include carousel-mod;

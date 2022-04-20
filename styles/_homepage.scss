@@ -6,6 +6,7 @@
     align-items: center;
     width: 100%;
     min-height: calc((var(--vh, 1vh) * 100) - 6rem);
+    height: fit-content;
     transition: background-color ease 0.4s;
     background-color: var(--background-color);
     .homepage-section{
