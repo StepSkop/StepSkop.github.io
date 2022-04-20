@@ -2,4 +2,17 @@
     .game-window-2{
         display: flex;
     }
+    .games-title{
+        transform: scale(1.5);
+        margin-bottom: 9rem;
+    }
+    .games-gallery-custom{
+        transform: scale(1.2);
+    }
+    .carousel-item.active, .carousel-item-next, .carousel-item-prev{
+        p{
+            font-size: 1rem;
+        }
+    }
+
 }

@@ -1,0 +1,42 @@
+@media only screen and (min-width: 990px){
+    #homepage{
+        //background-color: aqua;
+        min-height: calc((var(--vh, 1vh) * 100) - 4.5rem);
+        .homepage-section{
+            row-gap: 6.5rem;
+            #game-vibe-text{
+                transform: scale(1.5);
+            }
+            .join-button-home{
+                transform: scale(1.5);
+            }
+            .join-button-home:hover{
+                transform: scale(1.7);
+                background: $button-color-hover;
+            }
+        }
+        .learn-more-custom{
+            transform: scale(1.2);
+            bottom: 3rem;
+        }
+    } 
+}
+// @media only screen and (min-width: 1600px){
+//     #homepage{
+//         //background-color: aqua;
+//         min-height: calc((var(--vh, 1vh) * 100) - 4.5rem);
+//         .homepage-section{
+//             row-gap: 9rem;
+//             #game-vibe-text{
+//                 transform: scale(2);
+//             }
+//             .join-button-home{
+//                 transform: scale(2);
+//             }
+//         }
+//         .learn-more-custom{
+//             transform: scale(1.5);
+//             bottom: 4.2rem;
+//         }
+//     } 
+// }
