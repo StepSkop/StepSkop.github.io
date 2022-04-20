@@ -2,7 +2,6 @@
     display: block;
     width: 100%;
     max-width: 59rem;
-    height: fit-content;
     top: 0;
 }
 .carousel {
@@ -10,14 +9,12 @@
     justify-content: center;
     min-height: 40rem;
     max-width: 59rem;
-    height: 512px;
     }
     .carousel-caption {
         bottom: 3rem;
         z-index: 0;
     }
     .carousel-inner{
-        height: fit-content;
     }
     .carousel-indicators [data-bs-target]{
         background-color: $secondary-color;
