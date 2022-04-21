@@ -919,7 +919,7 @@ footer p {
   .games-title {
     -webkit-transform: scale(1.5);
             transform: scale(1.5);
-    margin-bottom: 9rem;
+    margin-bottom: 7rem;
   }
   .games-gallery-custom {
     -webkit-transform: scale(1.1);
