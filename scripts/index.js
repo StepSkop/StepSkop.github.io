@@ -40,12 +40,13 @@ function typingHome() {
     }
 }
 var k=0,text2;
-text2 = 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil officia praesentium excepturi mollitia sed, repellendus ullam laboriosam dolore accusamus porro repellat cum sint cupiditate aliquid eligendi, sequi quibusdam harum aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ducimus ex nesciunt quam eos quae dolorem, dolore reiciendis amet perspiciatis praesentium dolorum illo ad ipsam beatae? Eos voluptas repudiandae eveniet.';
+text2 = 'We are friendly gamer community from Czech Republic, but you will find gamers from other countries here. Even in night time you are able to find someone chilling in the voice. Welcome to gamers hideout.';
 function typingAbout() {
     if (k<text2.length) {
         var char = text2.charAt(k);
-        if (k == 4) {
+        if (k == 175) {
             char += '</br>';
+            char += '</br>'
         }
         document.getElementById("about-content").innerHTML += char;
         k++;
