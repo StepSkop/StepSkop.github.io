@@ -926,7 +926,7 @@ footer p {
             transform: scale(1.1);
   }
   .carousel-inner {
-    min-height: 100%;
+    min-height: 540px;
     margin-bottom: 6rem;
   }
   .carousel-item.active p, .carousel-item-next p, .carousel-item-prev p {
